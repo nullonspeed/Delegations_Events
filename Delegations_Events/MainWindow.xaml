@@ -1,0 +1,22 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Delegations_Events"
+        xmlns:UCLib="clr-namespace:UCLib;assembly=UCLib" x:Class="Delegations_Events.MainWindow"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Loaded="Window_Loaded">
+    <Grid Name="mainGrid">
+
+        <UCLib:UCUpDDown Name="uc1" HorizontalAlignment="Left" Margin="49,100,0,0" VerticalAlignment="Top" Height="117" Width="159"/>
+        <UCLib:UCUpDDown Name="uc2" HorizontalAlignment="Left" Margin="441,158,0,0" VerticalAlignment="Top"/>
+        <UCLib:UCUpDDown Name="uc3" HorizontalAlignment="Left" Margin="208,283,0,0" VerticalAlignment="Top"/>
+        <UCLib:UCUpDDown HorizontalAlignment="Left" Margin="441,327,0,0" VerticalAlignment="Top"/>
+        <UCLib:UCUpDDown HorizontalAlignment="Left" Margin="598,0,0,0" VerticalAlignment="Center"/>
+        <UCLib:UserControl1 HorizontalAlignment="Left" Margin="306,53,0,0" VerticalAlignment="Top"/>
+        <UCLib:UserControl1 HorizontalAlignment="Left" Margin="80,261,0,0" VerticalAlignment="Top"/>
+        <UCLib:UCOSLider HorizontalAlignment="Left" Margin="230,164,0,0" VerticalAlignment="Top" Height="97" Width="198"/>
+
+    </Grid>
+</Window>
